@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: "ejecutar pruebas"
+name: "ejecutar pruebas del reto 1"
 
 # Controls when the action will run. 
 on:
@@ -20,9 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install @actions/core @actions/github @commitlint/config-conventional @commitlint/lint @commitlint/load
+      - name: install
+        run: npm install
 
-      - name: Checks the PR title
-        run: node useTestTitle
+      - name: test
+        run: npm run test
 
