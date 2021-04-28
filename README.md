@@ -1,5 +1,11 @@
 # Reto 1 Javascript
 
+# Problema
+
+La función hello() del componente : hello-word.js no esta retornando el valor correcto.
+
+Corregir para que la prueba ejecute satisfactoriamente.
+
 # Pasos iniciales
 
 Tienes que tener instalado previamente Node y npm.
